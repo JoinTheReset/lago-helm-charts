@@ -153,6 +153,7 @@ api:
   volumes:
     accessModes: ReadWriteOnce
     storage: "10Gi"
+    # storageClassName: "" # Optional: Specify the storage class name
   extraEnv: {}
   podAnnotations: {}
   podLabels: {}
